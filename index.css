@@ -59,16 +59,46 @@ a.card {
 
 .card.left > .section-text {
 	text-align: left;
-	left: 5%;
+	left: 10%;
 }
 
 .card.right > .section-text {
 	text-align: right;
-	right: 5%;
+	right: 10%;
 }
 
 #title-content > .media-buttons {
 	margin: 10px auto 0 auto;
 	padding: 0;
+}
+
+@media only screen and (max-width: 550px) {
+	
+	.section-text > span {
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+ .card.left > .section-text {
+	text-align: left;
+	left: 10%;
+	}
+
+.card.right > .section-text {
+	text-align: right;
+	right: 10%;
+	}
+
+}
+
+@media only screen and (min-width: 1200px) {
+	
+	.section-text > span {
+	font-size: 45px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
 }
 

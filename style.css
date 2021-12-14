@@ -147,7 +147,6 @@ nav > .name {
   position: relative;
   text-align: center;
   padding: 0 15px;
-  height: 750px;
 
 }
 
@@ -192,7 +191,9 @@ nav > .name {
   max-height: auto;
 }
 
-
+.projectDescription{
+  text-align: center;
+}
 
 @media only screen and (max-width: 800px) {
   
@@ -201,6 +202,28 @@ nav > .name {
     flex-direction:column;
     flex-wrap:wrap;
     justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  
+  nav > .name {
+   margin: 0 10px;
+   font-size: 20px;
+    vertical-align: top;
+    color: black;
+    text-decoration: none;
+  }
+
+  #title-text {
+  position: absolute;
+  top: 50%;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transform: translateY(-25%);
+  width: 100%;
+  text-align: center;
   }
 }
 
